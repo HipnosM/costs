@@ -1,0 +1,15 @@
+.novoprojeto_container {
+    width: 50rem;
+    margin: 1.5em auto;
+    padding: 3em;
+    border: 0.1rem solid rgba(0, 0, 0, .15);
+    border-radius: 1.5em;
+}
+
+.novoprojeto_container h1 {
+    margin-bottom: 0.5em;
+}
+
+.novoprojeto_container p {
+    color: #7B7B7B;
+}
