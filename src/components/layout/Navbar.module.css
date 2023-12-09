@@ -23,3 +23,17 @@
     background: rgba(0, 0, 0, 0.2);
     border-radius: 0.25em;
 }
+
+@media (max-width: 76.9rem) {
+    .navbar {
+        padding: 0.5em;
+    }
+}
+@media (max-width: 60rem) {
+    .list {
+        margin: 1.5em 0;
+    }
+    img {
+        padding: 1.5em 0;
+    }
+}

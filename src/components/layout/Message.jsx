@@ -1,5 +1,6 @@
-import { useState, useEffect } from 'react';
 import styles from './Message.module.css';
+
+import { useState, useEffect } from 'react';
 
 export default function Message({ type, text }) {
 
@@ -14,7 +15,7 @@ export default function Message({ type, text }) {
 
         const timer = setTimeout(() => {
             setVisible(false);
-        }, 3000);
+        }, 5000);
 
         return () => clearTimeout(timer); 
     }, [text]);

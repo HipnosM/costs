@@ -33,3 +33,9 @@
 .copyright span:last-child {
     color: crimson;
 }
+
+@media (max-width: 769px) {
+    .footer {
+        padding: 1em;
+    }
+}

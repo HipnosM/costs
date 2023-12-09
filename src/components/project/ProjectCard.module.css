@@ -84,3 +84,7 @@
 .project_card_actions svg {
     margin-right: 0.5em;
 }
+
+.just_center {
+    justify-content: center;
+}

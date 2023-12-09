@@ -1,27 +1,14 @@
 {
   "projects": [
     {
-      "name": "primeiro projeto",
-      "total": "10000",
+      "name": "meu novo projeto",
+      "total": "2000",
       "categories": {
-        "id": "1",
-        "name": "Infra"
+        "id": "2",
+        "name": "Desenvolvimento"
       },
-      "cost": 10000,
-      "services": [
-        {
-          "name": "primeiro serviço",
-          "cost": "5000",
-          "description": "este é o meu primeiro serviço para testar o valor do orçamento",
-          "id": "3fe3070e-c5cf-411a-a0d1-6ede8bff3047"
-        },
-        {
-          "name": "primeiro serviço",
-          "cost": "5000",
-          "description": "este é o meu primeiro serviço para testar o valor do orçamento",
-          "id": "f752450f-ecd4-47b4-97cd-9e90e21f599c"
-        }
-      ],
+      "cost": 0,
+      "services": [],
       "id": 1
     }
   ],
