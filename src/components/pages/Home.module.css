@@ -35,5 +35,6 @@
 @media (max-width: 769px) {
     .home_container {
         width: 75%;
+        text-align: center;
     }
 }

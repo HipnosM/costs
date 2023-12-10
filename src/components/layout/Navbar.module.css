@@ -9,6 +9,7 @@
     display: flex;
     list-style: none;
     align-items: center;
+    justify-content: center;
     gap: 0.5em;
 }
 
@@ -24,16 +25,23 @@
     border-radius: 0.25em;
 }
 
-@media (max-width: 76.9rem) {
+@media (max-width: 600px) {
     .navbar {
         padding: 0.5em;
     }
-}
-@media (max-width: 60rem) {
     .list {
         margin: 1.5em 0;
     }
+    a {
+        text-align: center;
+    }
     img {
-        padding: 1.5em 0;
+        padding: 1.5em;
+    }
+}
+@media (max-width: 520px) {
+    .list {
+        flex-flow: column;
+        gap: 1.5rem;
     }
 }

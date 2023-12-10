@@ -8,6 +8,7 @@ export default function NovoProjeto() {
     const navigate = useNavigate();
 
     function createPost(project) {
+        e.preventDefault();
         project.cost = 0;
         project.services = [];
 

@@ -11,10 +11,17 @@
     justify-content: center;
 }
 
+.social_list li a {
+    color: #FFF;
+}
+.social_list li a:visited {
+    color: #FFF;
+}
+
 .social_list li {
     margin: 0 1em;
 }
-.social_list li:hover {
+.social_list :is(li, a):hover {
     color: #FFBB33;
 }
 

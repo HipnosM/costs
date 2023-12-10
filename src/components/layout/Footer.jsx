@@ -7,7 +7,11 @@ export default function Footer() {
         <footer className={styles.footer}>
             <ul className={styles.social_list}>
                 <li><FaFacebook /></li>
-                <li><FaInstagram /></li>
+                <li>
+                    <a href="https://instagram.com/tryiago" target="_blank">
+                        <FaInstagram />
+                    </a>
+                </li>
                 <li><FaLinkedin /></li>
             </ul>
             <p className={styles.copyright}><span>Costs</span> &copy; 2023, by <span>Hipnos</span>, on Hora de Codar.</p>

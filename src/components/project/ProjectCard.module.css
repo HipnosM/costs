@@ -1,5 +1,5 @@
 .project_card {
-    width: 24%;
+    width: 24rem;
     padding: 1em;
     border: 0.1em solid #7A7A7A;
     border-radius: 0.5em;
@@ -87,4 +87,13 @@
 
 .just_center {
     justify-content: center;
+}
+
+@media (max-width: 459px) {
+    .project_card {
+        width: 100%;
+    }
+    .project_card_actions {
+        justify-content: center;
+    }
 }
