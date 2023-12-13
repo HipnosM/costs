@@ -21,17 +21,16 @@
     cursor: pointer;
 }
 
-.menuAberto {
+.menuOpen {
     transform: rotate(90deg);
     transition: transform .5s;
 }
 
-.fechar {
+.menuClose {
+    /* display: none; */
     visibility: hidden;
     animation: fechar 0.3s;
-}
-.menuToggle {
-    display: none;
+    height: 0.1rem;
 }
 
 .item a {

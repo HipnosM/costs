@@ -24,14 +24,14 @@ export default function Navbar() {
                     <img src={Logo} alt="logo costs" />
                 </Link>
                 <div className={styles.list}>
-                    <ul className={`${styles.list} ${menu ? styles.menuToggle && styles.fechar : ""}`}>
+                    <ul className={`${styles.list} ${menu ? styles.menuClose : ""}`}>
                         <li className={styles.item}><Link to="/">Home</Link></li>
                         <li className={styles.item}><Link to="/projetos">Projetos</Link></li>
                         <li className={styles.item}><Link to="/empresa">Empresa</Link></li>
                         <li className={styles.item}><Link to="/contato">Contato</Link></li>
                     </ul>
                     <div className={styles.menu}>
-                        <FaBars onClick={menuToggle} className={!menuAberto ? styles.menuAberto : ""} />
+                        <FaBars onClick={menuToggle} className={!menuAberto ? styles.menuOpen : ""} />
                     </div>
                 </div>
             </Container>
