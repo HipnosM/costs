@@ -31,7 +31,7 @@ export default function Navbar() {
                         <li className={styles.item}><Link to="/contato">Contato</Link></li>
                     </ul>
                     <div className={styles.menu}>
-                        <FaBars onClick={menuToggle} className={menuAberto ? styles.menuAberto : ""} />
+                        <FaBars onClick={menuToggle} className={!menuAberto ? styles.menuAberto : ""} />
                     </div>
                 </div>
             </Container>
