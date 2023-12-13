@@ -11,7 +11,7 @@
     align-items: center;
     justify-content: center;
     gap: 0.5em;
-    animation: .5s ease-in-out abrir;
+    animation: abrir .5s;
 }
 
 .menu {
@@ -27,7 +27,9 @@
 }
 
 .abrir {
-    display: none;
+    /* display: none; */
+    visibility: hidden;
+    animation: fechar 0.3s;
 }
 
 .item a {
@@ -49,6 +51,14 @@
     }
     100% {
         transform: rotateY(0deg);
+    }
+}
+@keyframes fechar {
+    0% {
+        transform: rotateY(0deg);
+    }
+    100% {
+        transform: rotateY(90deg);
     }
 }
 
