@@ -9,8 +9,8 @@ import { useState } from "react";
 
 export default function Navbar() {
 
-    const [menu, setMenu] = useState(false);
-    const [menuAberto, setMenuToggle] = useState(false);
+    const [menu, setMenu] = useState(true);
+    const [menuAberto, setMenuToggle] = useState(true);
 
     function menuToggle() {
         setMenu(!menu);
