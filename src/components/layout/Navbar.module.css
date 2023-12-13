@@ -26,10 +26,12 @@
     transition: transform .5s;
 }
 
-.abrir {
-    /* display: none; */
+.fechar {
     visibility: hidden;
     animation: fechar 0.3s;
+}
+.menuToggle {
+    display: none;
 }
 
 .item a {

@@ -24,7 +24,7 @@ export default function Navbar() {
                     <img src={Logo} alt="logo costs" />
                 </Link>
                 <div className={styles.list}>
-                    <ul className={`${styles.list} ${menu ? styles.abrir : ""}`}>
+                    <ul className={`${styles.list} ${menu ? styles.menuToggle && styles.fechar : ""}`}>
                         <li className={styles.item}><Link to="/">Home</Link></li>
                         <li className={styles.item}><Link to="/projetos">Projetos</Link></li>
                         <li className={styles.item}><Link to="/empresa">Empresa</Link></li>
