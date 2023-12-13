@@ -11,6 +11,23 @@
     align-items: center;
     justify-content: center;
     gap: 0.5em;
+    animation: .5s ease-in-out abrir;
+}
+
+.menu {
+    max-width: 2.6rem;
+    color: #FFF;
+    font-size: 2.6rem;
+    cursor: pointer;
+}
+
+.menuAberto {
+    transform: rotate(90deg);
+    transition: transform .5s;
+}
+
+.abrir {
+    display: none;
 }
 
 .item a {
@@ -19,10 +36,20 @@
     padding: 0.2em 2em;
     transition: all .2s ease-in-out;
 }
-.item a:hover {
+.item a:hover,
+.menu:hover {
     color: #FFBB33;
     background: rgba(0, 0, 0, 0.2);
     border-radius: 0.25em;
+}
+
+@keyframes abrir {
+    0% {
+        transform: rotateY(90deg);
+    }
+    100% {
+        transform: rotateY(0deg);
+    }
 }
 
 @media (max-width: 600px) {
@@ -30,7 +57,12 @@
         padding: 0.5em;
     }
     .list {
-        margin: 1.5em 0;
+        margin-bottom: .5em;
+    }
+    .list:last-child {
+        align-items: center;
+        flex-direction: column-reverse;
+        gap: 1.5em 0;
     }
     a {
         text-align: center;
