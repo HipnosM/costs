@@ -1,8 +1,14 @@
-# React + Vite
+# Costs 
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This website allows the user to organize financial projects, add services and control the budget in a simple, easy and intuitive way. 
 
-Currently, two official plugins are available:
+## Technologies used and requires to install:
+- React + vite;
+- node.js;
+- React-router-dom;
+- React-icons;
+- json-server;
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+The production of this project provided fixation, practice and acquisition of new knowledge and experience in front-end development using react. This website was developed based on the "Hora de codar" classes, by professor Matheus Battisti, however, it is not a simple copy. Thanks! 😊
+
+<p>Ps: For now, the project only has a local API, so it is not possible to manage projects yet, however, this part is already under development. </p>
