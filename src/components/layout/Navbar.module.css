@@ -15,22 +15,7 @@
 }
 
 .menu {
-    max-width: 2.6rem;
-    color: #FFF;
-    font-size: 2.6rem;
-    cursor: pointer;
-}
-
-.menuOpen {
-    transform: rotate(90deg);
-    transition: transform .5s;
-}
-
-.menuClose {
-    /* display: none; */
-    visibility: hidden;
-    animation: fechar 0.3s;
-    height: 0.1rem;
+    display: none;
 }
 
 .item a {
@@ -63,7 +48,25 @@
     }
 }
 
-@media (max-width: 600px) {
+@media (max-width: 660px) {
+    .menu {
+        display: block;
+        max-width: 2.6rem;
+        color: #FFF;
+        font-size: 2.6rem;
+        cursor: pointer;
+    }
+    .menuOpen {
+        transform: rotate(90deg);
+        transition: transform .5s;
+    }
+    
+    .menuClose {
+        /* display: none; */
+        animation: fechar 0.3s;
+        height: 0.1rem;
+        visibility: hidden;
+    }
     .navbar {
         padding: 0.5em;
     }
