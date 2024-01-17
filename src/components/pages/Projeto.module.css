@@ -1,4 +1,5 @@
 .project_details {
+    width: 100%;
     padding: 2em;
 }
 
@@ -75,6 +76,15 @@
     .details_container {
         width: 100%;
         flex-direction: column;
-        align-items: end;
+        align-items: start;
+    }
+    .details_container button,
+    .service_container button {
+        align-self: flex-end;
+    }
+    .details_header,
+    .service_container {
+        flex-flow: column;
+        align-items: start;
     }
 }
